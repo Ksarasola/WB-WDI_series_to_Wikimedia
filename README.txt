@@ -33,11 +33,11 @@ Files:
     This call automatically created all these elements:
     
         - In the ZOR_PUBL subdirectory, the indicator's data and metadata tab files 
-        - Data:WB WDI GC.DOD.TOTL.GD.ZS data.tab          (data tab file on Commons)
-        - Data talk:WB WDI GC.DOD.TOTL.GD.ZS data.tab     (metadata tab file on Commons)
-        - https://www.wikidata.org/wiki/Q141507431        (data series item in Wikidata)
-        - Data:WB WDI GC.DOD.TOTL.GD.ZS.chart             (chart file needed for creating graphs with that indicator)
-        - https://eu.wikipedia.org/wiki/Public debt       (Added a graph at the end of that Wikipedia page)
+        - Data:WB WDI GC.DOD.TOTL.GD.ZS data.tab       (data tab file on Commons)
+        - Data talk:WB WDI GC.DOD.TOTL.GD.ZS data.tab  (metadata tab file on Commons)
+        - https://www.wikidata.org/wiki/Q141507431     (data series item in Wikidata)
+        - Data:WB WDI GC.DOD.TOTL.GD.ZS.chart          (chart file needed for creating graphs with that indicator)
+        - https://eu.wikipedia.org/wiki/Public debt    (Added a graph at the end of that Wikipedia page)
 
 
 
@@ -210,9 +210,23 @@ Notes:
 - All network calls retry automatically on transient failures (timeouts, 
   connection errors, and HTTP 502/503/504), giving up after 5 attempts with 
   exponential backoff. 
+- The file Chart_template.chart is used as a template to build the chart file for the new indicator.
+- The notebook max min tab.ipynb could be used to build better charts to be included in the Wikipedia page.
+  The function add_chart_with_series_data_to_wp_article creates a chart with data of 12 countries 
+  always in the same order (USA,FRA,ESP,RUS,TUR,MEX,CHN,BRA,EGY,IND,NGA,ETH). 
+  That list of countries could be reordered taking into account the values the indicators had last year. 
+  It could also be the list of the five countries with the highest and lowest values last year. 
+  
 
 
-User explanations in Basque:
+
+
+
+
+
+
+
+Usage explanations in Basque:
 Hauek dira orain arte ditugun programak.
 
     Deskonprimatu WB_WDI_wikira_v0.zip  eta Jarri fitxategiak PAWS-eko karpeta batean 
@@ -261,6 +275,4 @@ Hauek dira orain arte ditugun programak.
 
     Begiratu Wikipedian Zientzia literatura artikulua
     Bukaeran Erreferentziak atala baino lehenago IP.JRN.ARTC.SC adierazlearen grafiko bat azaldu behar da.
-    Ikusi ea ondo dagoen   ;-)
-
-    Arazorik badago... egun batean bilduko gara fakultatean. Zein zuretzat egun egokia Beñat? Galder?
+   
