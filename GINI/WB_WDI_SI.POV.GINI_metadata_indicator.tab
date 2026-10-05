@@ -1,0 +1,114 @@
+{
+	"license": "CC-BY-4.0",
+	"description": {
+		"en": "World Bank indicator metadata for SI.POV.GINI",
+		"eu": "Munduko Bankuko adierazleen metadatuak SI.POV.GINIrako"
+	},
+	"sources": "https://api.worldbank.org/v2/indicator/SI.POV.GINI?format=json",
+	"mediawikiCategories": [
+		{
+			"name": "World Development Indicators",
+			"sort": ""
+		}
+	],
+	"schema": {
+		"fields": [
+			{
+				"name": "line",
+				"type": "string",
+				"title": {
+					"en": "Line"
+				}
+			}
+		]
+	},
+	"data": [
+		[
+			"["
+		],
+		[
+			"__{"
+		],
+		[
+			"____\"page\": 1,"
+		],
+		[
+			"____\"pages\": 1,"
+		],
+		[
+			"____\"per_page\": \"50\","
+		],
+		[
+			"____\"total\": 1"
+		],
+		[
+			"__},"
+		],
+		[
+			"__["
+		],
+		[
+			"____{"
+		],
+		[
+			"______\"id\": \"SI.POV.GINI\","
+		],
+		[
+			"______\"name\": \"Gini index\","
+		],
+		[
+			"______\"unit\": \"\","
+		],
+		[
+			"______\"source\": {"
+		],
+		[
+			"________\"id\": \"2\","
+		],
+		[
+			"________\"value\": \"World Development Indicators\""
+		],
+		[
+			"______},"
+		],
+		[
+			"______\"sourceNote\": \"Gini index measures the extent to which the distribution of income (or, in some cases, consumption expenditure) among individuals or households within an economy deviates from a perfectly equal distribution. A Lorenz curve plots the cumulative percentages of total income received against the cumulative number of recipients, starting with the poorest individual or househol"
+		],
+		[
+			"+d. The Gini index measures the area between the Lorenz curve and a hypothetical line of absolute equality, expressed as a percentage of the maximum area under the line. Thus a Gini index of 0 represents perfect equality, while an index of 100 implies perfect inequality.\","
+		],
+		[
+			"______\"sourceOrganization\": \"World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://p"
+		],
+		[
+			"+ip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.\","
+		],
+		[
+			"______\"topics\": ["
+		],
+		[
+			"________{"
+		],
+		[
+			"__________\"id\": \"11\","
+		],
+		[
+			"__________\"value\": \"Poverty \""
+		],
+		[
+			"________}"
+		],
+		[
+			"______]"
+		],
+		[
+			"____}"
+		],
+		[
+			"__]"
+		],
+		[
+			"]"
+		]
+	]
+}

@@ -1,0 +1,37 @@
+{
+    "license": "CC0-1.0",
+    "mediawikiCategories": [
+        {
+            "name": "World Development Indicator charts",
+            "sort": ""
+        }
+    ],
+    "version": 1,
+    "type": "line",
+    "yAxis": {
+        "title": {
+            "en": "Net migration",
+            "es": "Migración neta",
+            "eu": "Migrazio garbia"
+        }
+    },
+    "xAxis": {
+        "title": {
+            "en": "Year",
+            "es": "Año",
+            "eu": "Urtea"
+        },
+        "format": "none"
+    },
+    "transform": {
+        "module": "CountryFilter",
+        "function": "filter",
+        "args": {
+            "col": "entity",
+            "value": "ABW",
+            "drop": "true"
+        }
+    },
+    "source": "Data:WB_WDI_SM.POP.NETM_data.tab"
+}
+

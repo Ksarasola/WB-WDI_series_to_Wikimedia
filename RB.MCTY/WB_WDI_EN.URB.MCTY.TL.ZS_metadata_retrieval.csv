@@ -1,0 +1,10 @@
+property,propertytype,propertyvalue
+Retrieval URL,string,https://api.worldbank.org/v2/country/all/indicator/EN.URB.MCTY.TL.ZS?format=json&per_page=20000&footnote=y&source=2
+Retrieval date,date,2026-09-22
+Entity codes,integer,265
+Year range start,integer,1960
+Year range end,integer,2025
+Years with data,integer,66
+Total data rows,integer,17490
+Rows with empty Value,integer,7062
+Rows with observed Value,integer,10428

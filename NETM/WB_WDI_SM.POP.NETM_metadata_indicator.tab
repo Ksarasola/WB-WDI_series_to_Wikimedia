@@ -1,0 +1,132 @@
+{
+	"license": "CC-BY-4.0",
+	"description": {
+		"en": "World Bank indicator metadata for SM.POP.NETM",
+		"eu": "Munduko Bankuko adierazleen metadatuak SM.POP.NETM-rentzat"
+	},
+	"sources": "https://api.worldbank.org/v2/indicator/SM.POP.NETM?format=json",
+	"mediawikiCategories": [
+		{
+			"name": "World Development Indicators",
+			"sort": ""
+		}
+	],
+	"schema": {
+		"fields": [
+			{
+				"name": "line",
+				"type": "string",
+				"title": {
+					"en": "Line"
+				}
+			}
+		]
+	},
+	"data": [
+		[
+			"["
+		],
+		[
+			"__{"
+		],
+		[
+			"____\"page\": 1,"
+		],
+		[
+			"____\"pages\": 1,"
+		],
+		[
+			"____\"per_page\": \"50\","
+		],
+		[
+			"____\"total\": 1"
+		],
+		[
+			"__},"
+		],
+		[
+			"__["
+		],
+		[
+			"____{"
+		],
+		[
+			"______\"id\": \"SM.POP.NETM\","
+		],
+		[
+			"______\"name\": \"Net migration\","
+		],
+		[
+			"______\"unit\": \"\","
+		],
+		[
+			"______\"source\": {"
+		],
+		[
+			"________\"id\": \"2\","
+		],
+		[
+			"________\"value\": \"World Development Indicators\""
+		],
+		[
+			"______},"
+		],
+		[
+			"______\"sourceNote\": \"Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.\","
+		],
+		[
+			"______\"sourceOrganization\": \"World Population Prospects, United Nations (UN), publisher: UN Population Division\","
+		],
+		[
+			"______\"topics\": ["
+		],
+		[
+			"________{"
+		],
+		[
+			"__________\"id\": \"7\","
+		],
+		[
+			"__________\"value\": \"Financial Sector \""
+		],
+		[
+			"________},"
+		],
+		[
+			"________{"
+		],
+		[
+			"__________\"id\": \"8\","
+		],
+		[
+			"__________\"value\": \"Health \""
+		],
+		[
+			"________},"
+		],
+		[
+			"________{"
+		],
+		[
+			"__________\"id\": \"2\","
+		],
+		[
+			"__________\"value\": \"Aid Effectiveness \""
+		],
+		[
+			"________}"
+		],
+		[
+			"______]"
+		],
+		[
+			"____}"
+		],
+		[
+			"__]"
+		],
+		[
+			"]"
+		]
+	]
+}

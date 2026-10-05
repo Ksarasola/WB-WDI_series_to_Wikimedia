@@ -1,0 +1,288 @@
+{
+	"license": "CC-BY-4.0",
+	"description": {
+		"en": "World Bank series (source 2) metadata for SM.POP.NETM",
+		"eu": "Munduko Bankuaren serieko (2. iturria) metadatuak SM.POP.NETM-rentzat"
+	},
+	"sources": "https://api.worldbank.org/v2/sources/2/series/SM.POP.NETM/metadata?format=json",
+	"mediawikiCategories": [
+		{
+			"name": "World Development Indicators",
+			"sort": ""
+		}
+	],
+	"schema": {
+		"fields": [
+			{
+				"name": "line",
+				"type": "string",
+				"title": {
+					"en": "Line"
+				}
+			}
+		]
+	},
+	"data": [
+		[
+			"{"
+		],
+		[
+			"__\"page\": 1,"
+		],
+		[
+			"__\"pages\": 1,"
+		],
+		[
+			"__\"per_page\": \"5000\","
+		],
+		[
+			"__\"total\": 14,"
+		],
+		[
+			"__\"source\": ["
+		],
+		[
+			"____{"
+		],
+		[
+			"______\"id\": \"2\","
+		],
+		[
+			"______\"name\": \"World Development Indicators\","
+		],
+		[
+			"______\"concept\": ["
+		],
+		[
+			"________{"
+		],
+		[
+			"__________\"id\": \"Series\","
+		],
+		[
+			"__________\"variable\": ["
+		],
+		[
+			"____________{"
+		],
+		[
+			"______________\"id\": \"SM.POP.NETM\","
+		],
+		[
+			"______________\"metatype\": ["
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Aggregationmethod\","
+		],
+		[
+			"__________________\"value\": \"Sum\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Dataset\","
+		],
+		[
+			"__________________\"value\": \"WB_WDI\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Developmentrelevance\","
+		],
+		[
+			"__________________\"value\": \"Movement of people, most often through migration, is a significant part of global integration. Migrants contribute to the economies of both their host country and their country of origin. Yet reliable statistics on migration are difficult to collect and are often incomplete, making international comparisons a challenge.\\n\\n\\n\\nGlobal migration patterns have become"
+		],
+		[
+			"+ increasingly complex in modern times, involving not just refugees, but also millions of economic migrants. In most developed countries, refugees are admitted for resettlement and are routinely included in population counts by censuses or population registers.\\n\\n\\n\\nBut refugees and migrants, even if they often travel in the same way, are fundamentally different, and for that reason are treate"
+		],
+		[
+			"+d very differently under modern international law. Migrants, especially economic migrants, choose to move in order to improve the future prospects of themselves and their families. Refugees have to move if they are to save their lives or preserve their freedom.\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"IndicatorName\","
+		],
+		[
+			"__________________\"value\": \"Net migration\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"License_Type\","
+		],
+		[
+			"__________________\"value\": \"CC BY-4.0\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"License_URL\","
+		],
+		[
+			"__________________\"value\": \"https://datacatalog.worldbank.org/int/public-licenses#cc-by\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Limitationsandexceptions\","
+		],
+		[
+			"__________________\"value\": \"International migration is the component of population change most difficult to measure and estimate reliably. Thus, the quality and quantity of the data used in the estimation and projection of net migration varies considerably by country. Furthermore, the movement of people across international boundaries, which is very often a response to changing socio-economic"
+		],
+		[
+			"+, political and environmental forces, is subject to a great deal of volatility. Refugee movements, for instance, may involve large numbers of people moving across boundaries in a short time. For these reasons, projections of future international migration levels are the least robust part of current population projections and reflect mainly a continuation of recent levels and trends in net migra"
+		],
+		[
+			"+tion.\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Longdefinition\","
+		],
+		[
+			"__________________\"value\": \"Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Periodicity\","
+		],
+		[
+			"__________________\"value\": \"Annual\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Referenceperiod\","
+		],
+		[
+			"__________________\"value\": \"1960-2025\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Source\","
+		],
+		[
+			"__________________\"value\": \"World Population Prospects, United Nations (UN), publisher: UN Population Division\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Statisticalconceptandmethodology\","
+		],
+		[
+			"__________________\"value\": \"Methodology: When there is insufficient data, net migration is derived through the difference between the overall population growth rate and the rate of natural increase (the difference between the birth rate and the death rate) during the same period. Such calculations are usually made for intercensal periods. The estimates are also derived from the data on foreig"
+		],
+		[
+			"+n-born population - people who have residence in one country but were born in another country. When data on the foreign-born population are not available, data on foreign population - that is, people who are citizens of a country other than the country in which they reside - are used as estimates.\\nStatistical concept(s): The United Nations Population Division provides data on net migration and"
+		],
+		[
+			"+ migrant stock. Because data on migrant stock is difficult for countries to collect, the United Nations Population Division takes into account the past migration history of a country or area, the migration policy of a country, and the influx of refugees in recent periods when deriving estimates of net migration. The data to calculate these estimates come from a variety of sources, including bor"
+		],
+		[
+			"+der statistics, administrative records, surveys, and censuses.\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Topic\","
+		],
+		[
+			"__________________\"value\": \"Social Protection & Labor: Migration\""
+		],
+		[
+			"________________},"
+		],
+		[
+			"________________{"
+		],
+		[
+			"__________________\"id\": \"Unitofmeasure\","
+		],
+		[
+			"__________________\"value\": \"Unit\""
+		],
+		[
+			"________________}"
+		],
+		[
+			"______________]"
+		],
+		[
+			"____________}"
+		],
+		[
+			"__________]"
+		],
+		[
+			"________}"
+		],
+		[
+			"______]"
+		],
+		[
+			"____}"
+		],
+		[
+			"__]"
+		],
+		[
+			"}"
+		]
+	]
+}
