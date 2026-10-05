@@ -1,9 +1,12 @@
 README - World Bank WDI Raw Export Toolkit  
 
-This folder contains for Python files and one python Netbook that together download original World Bank World Development Indicators (WDI) data directly from the live World Bank API (api.worldbank.org), create corresponding items in Wikimedia Commons and Wikidata for this indicator and finally add an graphic for this indicator at the end of an existing page of Basque Wikipedia.
+This folder contains four Python files and one Python Netbook that together download original World Bank World Development Indicators' (WDI) data directly from the live World Bank API (api.worldbank.org), create corresponding items in Wikimedia Commons and Wikidata for this indicator, and finally add a chart for this indicator at the end of an existing page of Basque Wikipedia.
 
+This program was used to create tab files in the following Category: 
+    https://commons.wikimedia.org/wiki/Category:World_Development_Indicators
+This program was used to add charts in the following pages of Basque Wikipedia: 
+    https://w.wiki/Uu7k
 
-And turn it into tidy CSVs plus Wikimedia Commons-ready .tab files. 
 
 Files: 
 
@@ -14,7 +17,7 @@ Files:
    to be made automatically through the program.  
    As there many arguments this function can be executed using the wikify_one_indicator function 
    in a PAWS Python Notebook (wb_indicator2wmc_wd_wp.ipynb). 
-   For example, It was used in the following way to work on the "public debt" indicator:
+   For example, It was used in the following way to work on the "Public debt" indicator:
 
     wikify_one_indicator (
                               indicator = "GC.DOD.TOTL.GD.ZS", 
@@ -33,35 +36,35 @@ Files:
         - Data:WB WDI GC.DOD.TOTL.GD.ZS data.tab          (data tab file on Commons)
         - Data talk:WB WDI GC.DOD.TOTL.GD.ZS data.tab     (metadata tab file on Commons)
         - https://www.wikidata.org/wiki/Q141507431        (data series item in Wikidata)
-        - Data:WB WDI GC.DOD.TOTL.GD.ZS.chart             (chart file needed for creating graphs with the series data)
+        - Data:WB WDI GC.DOD.TOTL.GD.ZS.chart             (chart file needed for creating graphs with that indicator)
         - https://eu.wikipedia.org/wiki/Public debt       (Added a graph at the end of that Wikipedia page)
 
 
 
     run_wikify indicator function implements the following six "steps".
 
-    # Create the data tab files in the subdirectory
-    01 run_indicator_export(indicator, subdir, base_name)
+       # Create the data tab files in the subdirectory
+       01 run_indicator_export(indicator, subdir, base_name)
 
-    02 create_data_tab_file_on_commons (indicator, subdir, prefix)
-    03 create_metadata_tab_file_on_commons (indicator, subdir, prefix)
-    04 create_data_series_item_on_wikidata  (indicator, 
-                                          prefix,      
-                                          eu_description,
-                                          en_description,
-                                          q_main_subject,
-                                          main_subject)    
-    05 create_chart_file_on_commons (indicator, 
-                                  prefix,
-                                  eu_description,
-                                  en_description,
-                                  es_description)
-    06 add_chart_with_series_data_to_wp_article (wp_article,
-                                              indicator, 
-                                              prefix,
-                                              eu_description,
-                                              en_description,
-                                              es_description)
+       02 create_data_tab_file_on_commons (indicator, subdir, prefix)
+       03 create_metadata_tab_file_on_commons (indicator, subdir, prefix)
+       04 create_data_series_item_on_wikidata  (indicator, 
+                                                prefix,      
+                                                eu_description,
+                                                en_description,
+                                                q_main_subject,
+                                                main_subject)    
+       05 create_chart_file_on_commons (indicator, 
+                                        prefix,
+                                        eu_description,
+                                        en_description,
+                                        es_description)
+       06 add_chart_with_series_data_to_wp_article (wp_article,
+                                                    indicator, 
+                                                    prefix,
+                                                    eu_description,
+                                                    en_description,
+                                                    es_description)
 
     
     # Another usage example from run_wikify_indicator.ipynb note book:
@@ -71,8 +74,8 @@ Files:
     #                       eu_description = "GINI indizea",
     #                       en_description = "GINI index",
     #                       es_description = "Indice GINI",
-    #                       q_main_subject = "",
-    #                       main_subject
+    #                       q_main_subject = "Q162455",
+    #                       main_subject = "Gini koefiziente"
     #                       wp_article = "Giniren koefiziente") 
 
 
