@@ -1,6 +1,10 @@
 README - World Bank WDI Raw Export Toolkit  
 
-This folder contains four Python files and one Python Netbook that together download original World Bank World Development Indicators' (WDI) data directly from the live World Bank API (api.worldbank.org), create corresponding items in Wikimedia Commons and Wikidata for this indicator, and finally add a chart for this indicator at the end of an existing page of Basque Wikipedia.
+This folder contains four Python files and one Python Netbook that together 
+download original World Bank World Development Indicators' (WDI) data directly from the live World Bank API 
+  (api.worldbank.org), 
+create corresponding items in Wikimedia Commons and Wikidata for this indicator, 
+and finally add a chart for this indicator at the end of an existing page of Basque Wikipedia.
 
 This program was used to create tab files in the following Category: 
     https://commons.wikimedia.org/wiki/Category:World_Development_Indicators
