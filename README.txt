@@ -10,6 +10,8 @@ This program was used to create tab files in the following Category:
 This program was used to add charts in the following pages of Basque Wikipedia: 
     https://w.wiki/Uu7k
 
+To use these programas in a PAWS folder, create a folder and download the files from this repository to your folder using git clone or git pull from a PAWS terminal.
+(PAWSeko karpeta erabiltzeko, sortu karpeta bat eta jaitsi errepositorio honetako fitxategiak zure karpetara git clone edo git pull erabiliz PAWS-eko terminal batetik).
 
 Files: 
 
@@ -218,7 +220,9 @@ Notes:
   The function add_chart_with_series_data_to_wp_article creates a chart with data of 12 countries 
   always in the same order (USA,FRA,ESP,RUS,TUR,MEX,CHN,BRA,EGY,IND,NGA,ETH). 
   That list of countries could be reordered taking into account the values the indicators had last year. 
-  It could also be the list of the five countries with the highest and lowest values last year. 
+  It could also be the list of the five countries with the highest and lowest values last year.
+  See an example here: 
+https://eu.wikipedia.org/wiki/Emakumeak_politikan#Emakume_parlamentarien_proportzioa_legebiltzar_nazionalean_(Portzentajearen_bilakaera,_SG.GEN.PARL.ZS_datu-seriea)
   
 
 
